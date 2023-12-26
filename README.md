@@ -35,9 +35,13 @@ To use the Pin Code Plugin, follow these steps:
 1. Include the Pin Code Plugin script in your HTML file by adding the following line in the `<head>` section:
 
    ```html
+   <script src="https://cdn.jsdelivr.net/gh/degtev/pin-code-js-plugin@main/src/pincode-plugin.min.js"></script>
+   ```
+   Or
+   ```html
    <script src="https://cdn.jsdelivr.net/gh/degtev/pin-code-js-plugin@main/src/pincode-plugin.js"></script>
    ```
-
+   
    Alternatively, you can download the `pincode-plugin.js` file from the [GitHub repository](https://github.com/degtev/pin-code-js-plugin) and include it manually in your project.
 
 2. Add the required HTML structure for the pin code input fields:
