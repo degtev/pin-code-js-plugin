@@ -1,7 +1,6 @@
 # Pin Code Plugin
 
-A JavaScript plugin for managing pin code input fields.
-
+A JavaScript plugin for managing pin code input fields. 😊🔐
 
 ## Table of Contents
 
@@ -17,30 +16,31 @@ A JavaScript plugin for managing pin code input fields.
 
 ## Introduction
 
-The Pin Code Plugin is a lightweight JavaScript library that provides an easy and intuitive way to manage pin code input fields. It allows users to enter a pin code across multiple input fields and handles input restrictions, navigation, and event callbacks.
+The Pin Code Plugin is a lightweight JavaScript library that provides an easy and intuitive way to manage pin code input fields. It allows users to enter a pin code across multiple input fields and handles input restrictions, navigation, and event callbacks. 💡💻
 
-This plugin can be used to enhance the pin code input experience in various applications, such as login forms, authentication systems, and secure transactions.
+This plugin can be used to enhance the pin code input experience in various applications, such as login forms, authentication systems, and secure transactions. 🌟🔒
 
 ## Features
 
-- Accepts pin code input across multiple input fields
-- Restricts input to numeric characters only
-- Handles navigation between input fields automatically
-- Supports pasting of a complete pin code
-- Customizable event callbacks for input handling
+- Accepts pin code input across multiple input fields ✔️
+- Restricts input to numeric characters only 🔢
+- Handles navigation between input fields automatically ⬅️➡️
+- Supports pasting of a complete pin code 📋
+- Customizable event callbacks for input handling 🎉
 
 ## Installation
 
 To use the Pin Code Plugin, follow these steps:
 
-1. Download the `pincode-plugin.js` file from the [GitHub repository](https://github.com/degtev/pin-code-js-plugin).
-2. Include the `pincode-plugin.js` file in your HTML file:
+1. Include the Pin Code Plugin script in your HTML file by adding the following line in the `<head>` section:
 
    ```html
-   <script src="path/to/pincode-plugin.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/degtev/pin-code-js-plugin@main/src/pincode-plugin.js"></script>
    ```
 
-3. Add the required HTML structure for the pin code input fields:
+   Alternatively, you can download the `pincode-plugin.js` file from the [GitHub repository](https://github.com/degtev/pin-code-js-plugin) and include it manually in your project.
+
+2. Add the required HTML structure for the pin code input fields:
 
    ```html
    <div id="pinCodeContainer">
@@ -53,7 +53,7 @@ To use the Pin Code Plugin, follow these steps:
 
    Make sure to set the `maxlength` attribute to the desired length of your pin code.
 
-4. Initialize the plugin with the container element:
+3. Initialize the plugin with the container element:
 
    ```javascript
    PinCodePlugin.init("#pinCodeContainer");
@@ -84,12 +84,12 @@ The Pin Code Plugin triggers the following events:
 
 ## Demo
 
-Check out the live demo of the Pin Code Plugin [here](https://plugin-pincode.cloud24.space/).
+Check out the live demo of the Pin Code Plugin [here](https://plugin-pincode.cloud24.space/). 🌐🚀
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvement, please submit a pull request or open an issue in the [GitHub repository](https://github.com/degtev/pin-code-js-plugin).
+Contributions are welcome! If you find any issues or have suggestions for improvement, please submit a pull request or open an issue in the [GitHub repository](https://github.com/degtev/pin-code-js-plugin). 👍🎁
 
 ## License
 
-The Pin Code Plugin is licensed under the [MIT License](LICENSE).
+The Pin Code Plugin is licensed under the [MIT License](LICENSE). 📜💼
