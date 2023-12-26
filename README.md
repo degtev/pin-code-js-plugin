@@ -33,11 +33,11 @@ This plugin can be used to enhance the pin code input experience in various appl
 
 To use the Pin Code Plugin, follow these steps:
 
-1. Download the `pin-code-plugin.js` file from the [GitHub repository](https://github.com/degtev/pin-code-js-plugin).
-2. Include the `pin-code-plugin.js` file in your HTML file:
+1. Download the `pincode-plugin.js` file from the [GitHub repository](https://github.com/degtev/pin-code-js-plugin).
+2. Include the `pincode-plugin.js` file in your HTML file:
 
    ```html
-   <script src="path/to/pin-code-plugin.js"></script>
+   <script src="path/to/pincode-plugin.js"></script>
    ```
 
 3. Add the required HTML structure for the pin code input fields:
