@@ -3,7 +3,7 @@
  * Author: Vladimir Degtev
  * Created: December 26, 2023
  * GitHub: https://github.com/degtev/pin-code-js-plugin
- * Version: 1.0
+ * Version: 1.0.1
  */
 
 const PinCodePlugin = {
