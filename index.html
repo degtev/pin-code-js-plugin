@@ -9,17 +9,26 @@
 </head>
 <body>
 
-<div class="wrapper">
+<div class="wrapper pincode-wrapper">
+    <a href="https://github.com/degtev/pin-code-js-plugin" target="_blank">Project on github</a>
     <div class="pin-code">
         <input type="number" maxlength="1" placeholder="_" value="">
         <input type="number" maxlength="1" placeholder="_" value="">
         <input type="number" maxlength="1" placeholder="_" value="">
         <input type="number" maxlength="1" placeholder="_" value="">
     </div>
+    <button id="buttonClick">Click!</button>
 </div>
 
+
 <script>
-    PinCodePlugin.init(".pin-code");
+    function onSuccess(pinCode) {
+       alert("Your pin code: " + pinCode);
+    }
+    function onError(pinCode) {
+       alert("Please enter the full pin code.");
+    }
+    PinCodePlugin.init('.pin-code', onSuccess, onError, 'buttonClick');
 </script>
 </body>
 </html>
